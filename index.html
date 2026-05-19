@@ -682,12 +682,16 @@
     <h2 class="section-title" data-tr="Yeni oyunlar yolda!" data-en="New games on the way!">Yeni oyunlar yolda!</h2>
     <p class="section-desc" data-tr="Chill Friends Games büyümeye devam ediyor. Yeni parti oyunları için bizi takip etmeyi unutmayın!" data-en="Chill Friends Games keeps growing. Don't forget to follow us for new party games!">Chill Friends Games büyümeye devam ediyor. Yeni parti oyunları için bizi takip etmeyi unutmayın!</p>
     <div style="display:flex;gap:1.5rem;flex-wrap:wrap;">
-      <div style="background:var(--card-bg);border:1px dashed rgba(255,255,255,0.15);border-radius:var(--radius);padding:2rem;flex:1;min-width:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;text-align:center;">
-        <div style="width:60px;height:60px;border-radius:50%;background:rgba(255,77,141,0.15);display:flex;align-items:center;justify-content:center;">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="var(--pink)" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+      <div style="background:var(--card-bg);border:1px solid rgba(255,255,255,0.1);border-radius:var(--radius);overflow:hidden;flex:1;min-width:280px;">
+        <div style="position:relative;width:100%;aspect-ratio:16/9;overflow:hidden;">
+          <img src="npc.png" alt="Who is the NPC?" style="width:100%;height:100%;object-fit:cover;">
+          <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,26,46,0.95) 0%, transparent 60%);"></div>
+          <span style="position:absolute;top:12px;right:12px;font-size:0.72rem;background:rgba(255,77,141,0.9);color:#fff;padding:4px 12px;border-radius:20px;font-weight:700;" data-tr="Yakında" data-en="Coming Soon">Yakında</span>
         </div>
-        <p style="color:var(--text-muted);font-size:0.9rem;" data-tr="Yeni oyun geliyor..." data-en="New game coming...">Yeni oyun geliyor...</p>
-        <span style="font-size:0.75rem;background:rgba(255,77,141,0.15);color:var(--pink);padding:4px 14px;border-radius:20px;font-weight:700;" data-tr="Yakında" data-en="Coming Soon">Yakında</span>
+        <div style="padding:1.2rem;">
+          <div style="font-family:'Nunito',sans-serif;font-weight:900;font-size:1.1rem;margin-bottom:6px;">Who is the NPC?</div>
+          <p style="color:var(--text-muted);font-size:0.85rem;line-height:1.6;" data-tr="Aramızdaki NPC'yi bul! Yakında geliyor..." data-en="Find the NPC among us! Coming soon...">Aramızdaki NPC'yi bul! Yakında geliyor...</p>
+        </div>
       </div>
       <div style="background:var(--card-bg);border:1px dashed rgba(255,255,255,0.15);border-radius:var(--radius);padding:2rem;flex:1;min-width:240px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;text-align:center;">
         <div style="width:60px;height:60px;border-radius:50%;background:rgba(59,180,255,0.15);display:flex;align-items:center;justify-content:center;">
