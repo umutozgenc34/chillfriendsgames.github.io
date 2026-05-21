@@ -232,7 +232,7 @@
   #games { background: var(--darker); }
   .games-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.5rem;
   }
   .game-card {
@@ -403,12 +403,14 @@
     border: 1px solid rgba(59,180,255,0.25);
     color: var(--blue);
     text-decoration: none;
-    padding: 0.75rem 1.8rem;
+    padding: 0.75rem 1.5rem;
     border-radius: 50px;
     font-weight: 700;
-    font-size: 1rem;
+    font-size: clamp(0.75rem, 2.5vw, 1rem);
     margin-top: 1.5rem;
     transition: background 0.2s;
+    word-break: break-all;
+    text-align: center;
   }
   .contact-email:hover { background: rgba(59,180,255,0.2); }
   .social-links {
@@ -600,11 +602,36 @@
         </div>
       </div>
 
+      <!-- Suçlu Kim -->
+      <div class="game-card">
+        <div class="game-card-header">
+          <div class="game-icon">
+            <img src="suclukim.png" alt="Suçlu Kim?">
+          </div>
+          <div class="game-meta">
+            <div class="game-name">Suçlu Kim?<br><span style="color:var(--text-muted);font-size:0.85rem">Parti Oyunu</span></div>
+            <div class="game-tags">
+              <span class="tag tag-tr">🇹🇷 TR</span>
+              <span class="tag tag-social" data-tr="Dedektiflik" data-en="Detective">Dedektiflik</span>
+              <span class="tag tag-party">4-8 kişi</span>
+            </div>
+          </div>
+        </div>
+        <p class="game-desc" data-tr="Dedektif mi suçlu musun? Suçluların 3 cevabı yanlış ama hangileri olduğunu kendileri de bilmiyor! Sorgula, yalan söyle, gerçeği gizle — tüm suçluları yakala, davayı kapat!" data-en="Are you a detective or a criminal? Criminals have 3 wrong answers but don't even know which ones! Question, lie, hide the truth — catch all the criminals, close the case!">
+          Dedektif mi suçlu musun? Suçluların 3 cevabı yanlış ama hangileri olduğunu kendileri de bilmiyor! Sorgula, yalan söyle, gerçeği gizle — tüm suçluları yakala, davayı kapat!
+        </p>
+        <div class="game-footer">
+          <a href="https://play.google.com/store/apps/details?id=com.chillfriendsgames.suclukim" class="play-btn pink" target="_blank">
+            <svg class="gplay-icon" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.76c.37.2.8.2 1.16-.02l11.24-6.49-2.44-2.44-9.96 8.95zM.5 1.5A1.5 1.5 0 000 2.7v18.6a1.5 1.5 0 00.5 1.2l.07.06 10.42-10.42v-.24L.57 1.44.5 1.5zM22.17 10.43l-2.87-1.66-2.72 2.72 2.72 2.72 2.88-1.66a1.5 1.5 0 000-2.12zM4.34.26L15.58 6.75l-2.44 2.44L3.18.24c.37-.2.8-.2 1.16.02z"/></svg>
+            <span data-tr="Google Play" data-en="Google Play">Google Play</span>
+          </a>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
 
-<!-- ABOUT -->
 <section id="about">
   <div class="section-inner">
     <div class="about-grid">
