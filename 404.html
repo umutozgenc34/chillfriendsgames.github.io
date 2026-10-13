@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kanal yok | Chill Friends Games</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#221832">
+<link rel="icon" type="image/png" href="/img/logo-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Caveat:wght@600;700&family=Pixelify+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/pages.css">
+</head>
+<body data-title="nf.title">
+<main class="lost">
+  <div class="lost-tv">
+    <canvas id="snow" width="96" height="72"></canvas>
+    <p>CH 404</p>
+  </div>
+  <h1 data-i18n="nf.h1">Bu kanalda yayın yok.</h1>
+  <p data-i18n="nf.p">Aradığın sayfa taşınmış ya da hiç var olmamış olabilir.</p>
+  <a class="btn light" href="/" data-i18n="nf.back">Salona dön</a>
+</main>
+<script src="/js/i18n.js"></script>
+<script>
+  (() => {
+    const c = document.getElementById("snow");
+    const x = c.getContext("2d");
+    const im = x.createImageData(c.width, c.height);
+    const still = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let last = 0;
+    function draw(ts) {
+      if (!still) requestAnimationFrame(draw);
+      if (ts - last < 60) return;
+      last = ts;
+      for (let i = 0; i < im.data.length; i += 4) {
+        const v = Math.random() * 255;
+        im.data[i] = im.data[i + 1] = im.data[i + 2] = v;
+        im.data[i + 3] = 255;
+      }
+      x.putImageData(im, 0, 0);
+    }
+    draw(1000);
+  })();
+</script>
+</body>
+</html>
