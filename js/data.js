@@ -94,6 +94,23 @@ const GAMES = [
     shout: { tr: "itiraz ediyorum!", en: "objection!" }
   },
   {
+    id: "minigunners",
+    img: "img/minigunners.jpg",
+    color: "#f2a33a",
+    soon: true,
+    play: "https://instagram.com/chillfriendgames",
+    privacy: "minigunners-privacy.html",
+    players: "1–2",
+    langs: "TR, EN",
+    name: { tr: "Mini Gunners", en: "Mini Gunners" },
+    genre: { tr: "Sıra tabanlı nişancı", en: "Turn-based shooter" },
+    blurb: {
+      tr: "Açını ayarla, gücünü topla, rüzgârı hesaba kat ve ateş et. Online düellolarda rakibini yen ya da macera haritasında boss'ları devir.",
+      en: "Set your angle, charge your power, mind the wind and fire. Beat rivals in online duels or take down bosses on the adventure map."
+    },
+    shout: { tr: "rüzgârı hesapla, ateş!", en: "mind the wind… FIRE!" }
+  },
+  {
     id: "npc",
     img: "img/npc.webp",
     color: "#3fd3ea",

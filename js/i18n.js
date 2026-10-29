@@ -37,6 +37,7 @@ const I18N = (() => {
       "games.free": "Ücretsiz, internetsiz",
       "games.soonH": "rafta yer açtık",
       "games.follow": "Instagram'da takip et",
+      "games.privacy": "Gizlilik Politikası",
 
       "about.title": "Hakkımızda | Chill Friends Games",
       "about.scrib": "biz kimiz?",
@@ -107,6 +108,7 @@ const I18N = (() => {
       "games.free": "Free, works offline",
       "games.soonH": "we made room on the shelf",
       "games.follow": "Follow on Instagram",
+      "games.privacy": "Privacy Policy",
 
       "about.title": "About | Chill Friends Games",
       "about.scrib": "who are we?",

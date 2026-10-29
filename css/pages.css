@@ -87,7 +87,9 @@
   border: 3px dashed rgba(244, 231, 207, .35);
   border-radius: 20px;
 }
-.soon-strip:empty { display: none; }
+.soon-strip + .soon-strip { margin-top: 24px; }
+.priv { font-size: .92rem; color: var(--ink-soft); text-decoration: underline; text-underline-offset: 3px; }
+.soon-strip .priv { color: var(--text-dim); }
 .soon-strip img { width: 100%; height: auto; border-radius: 12px; }
 .soon-strip h2 { font-size: clamp(1.7rem, 3.4vw, 2.3rem); letter-spacing: -.03em; margin: 0 0 10px; line-height: 1.05; }
 .soon-strip p { color: var(--text-dim); margin: 0 0 20px; max-width: 46ch; }
