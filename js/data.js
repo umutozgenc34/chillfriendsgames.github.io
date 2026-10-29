@@ -111,6 +111,23 @@ const GAMES = [
     shout: { tr: "rüzgârı hesapla, ateş!", en: "mind the wind… FIRE!" }
   },
   {
+    id: "mended",
+    img: "img/mended.jpg",
+    color: "#d9b56c",
+    soon: true,
+    play: "https://instagram.com/chillfriendgames",
+    privacy: "mended-privacy.html",
+    players: "1",
+    langs: "TR, EN",
+    name: { tr: "Mended", en: "Mended" },
+    genre: { tr: "Sakin bulmaca", en: "Cozy puzzle" },
+    blurb: {
+      tr: "Kırık müze eserlerinin parçalarını renklerine göre sırala, her eseri altın dikişlerle onar ve kendi müzeni kur. Gerçek müze koleksiyonlarından 150 eser seni bekliyor.",
+      en: "Sort the fragments of broken museum pieces by color, mend each one with seams of gold and build your own museum. 150 artifacts from real museum collections are waiting."
+    },
+    shout: { tr: "parça parça, sabırla…", en: "piece by piece…" }
+  },
+  {
     id: "npc",
     img: "img/npc.webp",
     color: "#3fd3ea",

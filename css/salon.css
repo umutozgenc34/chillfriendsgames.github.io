@@ -53,7 +53,7 @@ body.home { background-image: none; }
   z-index: 1;
   --cart-fs: 10px;
 }
-.stage.port { width: 900px; height: 1500px; --cart-fs: 12px; }
+.stage.port { width: 900px; height: 1500px; --cart-fs: 9.4px; }
 
 .piece { position: absolute; display: block; }
 .piece > svg { width: 100%; height: 100%; display: block; overflow: visible; }
@@ -72,7 +72,7 @@ svg.piece { overflow: visible; }
   z-index: 1;
 }
 .poster {
-  left: 1300px; top: 36px;
+  left: 1062px; top: 40px;
   width: 128px; height: 128px;
   padding: 10px;
   background: var(--cream);
@@ -136,9 +136,10 @@ svg.piece { overflow: visible; }
 }
 .shelf i:first-child { left: 40px; }
 .shelf i:last-child { right: 40px; }
-.s1 { left: 1200px; top: 300px; }
-.s2 { left: 1200px; top: 520px; }
-.plant { left: 1428px; top: 383px; width: 112px; height: 140px; z-index: 21; }
+.s1 { left: 1200px; top: 196px; }
+.s2 { left: 1200px; top: 382px; }
+.s3 { left: 1200px; top: 568px; }
+.plant { left: 1428px; top: 431px; width: 112px; height: 140px; z-index: 21; }
 .couch { left: 230px; top: 690px; width: 1140px; height: 260px; z-index: 40; }
 
 .blob { position: absolute; z-index: 35; transform-origin: 50% 100%; }
@@ -432,6 +433,7 @@ svg.piece { overflow: visible; }
 .stage.port .poster,
 .stage.port .doodle,
 .stage.port .s2,
+.stage.port .s3,
 .stage.port .plant { display: none; }
 .stage.port .note { left: 70px; top: 26px; width: 560px; padding: 14px 22px 16px; transform: rotate(-2deg); }
 .stage.port .note p { font-size: 38px; }

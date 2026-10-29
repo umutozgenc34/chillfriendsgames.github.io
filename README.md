@@ -21,4 +21,5 @@ Raftaki kartuşlardan birini konsola sürükleyince TV açılıyor ve o oyunu an
 - [Bomba Kimde](https://play.google.com/store/apps/details?id=com.chillfriendsgames.bombakimde)
 - [Suçlu Kim?](https://play.google.com/store/apps/details?id=com.chillfriendsgames.suclukim)
 - Mini Gunners (yakında)
+- Mended (yakında)
 - Who is the NPC? (yakında)
