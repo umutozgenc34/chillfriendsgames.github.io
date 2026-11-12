@@ -95,10 +95,9 @@ const GAMES = [
   },
   {
     id: "minigunners",
-    img: "img/minigunners.jpg",
+    img: "img/minigunners.webp",
     color: "#f2a33a",
-    soon: true,
-    play: "https://instagram.com/chillfriendgames",
+    play: PLAY + "minigunners",
     privacy: "minigunners-privacy.html",
     players: "1–2",
     langs: "TR, EN",
@@ -107,6 +106,14 @@ const GAMES = [
     blurb: {
       tr: "Açını ayarla, gücünü topla, rüzgârı hesaba kat ve ateş et. Online düellolarda rakibini yen ya da macera haritasında boss'ları devir.",
       en: "Set your angle, charge your power, mind the wind and fire. Beat rivals in online duels or take down bosses on the adventure map."
+    },
+    long: {
+      tr: "Sıra sende: açını ayarla, gücünü topla, rüzgârı hesaba kat ve ateş et. Online PvP düellolarında gerçek rakiplere karşı yarış, araziyi yıkıp rakibini düşür, yıkıcı ultilerle maçı çevir. Macera haritasında bölüm bölüm ilerle, boss'ları devir, topçularını, yardımcılarını ve teçhizatını geliştir.",
+      en: "Your turn: set your angle, charge your power, mind the wind and fire. Face real rivals in online PvP duels, blast the terrain to drop your opponent and turn the match with devastating ultis. Push through the adventure map chapter by chapter, take down bosses and upgrade your gunners, helpers and gear."
+    },
+    how: {
+      tr: ["Açını ve gücünü ayarla, rüzgârı kontrol et.", "Ateş et, araziyi yık, rakibini vur ya da düşür.", "Kazandıkça altın topla, topçunu ve teçhizatını güçlendir."],
+      en: ["Set your angle and power, check the wind.", "Fire, blast the terrain, hit or drop your rival.", "Earn coins as you win, power up your gunner and gear."]
     },
     shout: { tr: "rüzgârı hesapla, ateş!", en: "mind the wind… FIRE!" }
   },
