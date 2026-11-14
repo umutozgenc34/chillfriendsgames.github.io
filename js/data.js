@@ -135,6 +135,23 @@ const GAMES = [
     shout: { tr: "parça parça, sabırla…", en: "piece by piece…" }
   },
   {
+    id: "chickball",
+    img: "img/chickball.jpg",
+    color: "#f5c21b",
+    soon: true,
+    play: "https://instagram.com/chillfriendgames",
+    privacy: "chickball-privacy.html",
+    players: "1",
+    langs: "TR, EN",
+    name: { tr: "Chickball Manager", en: "Chickball Manager" },
+    genre: { tr: "Futbol menajerliği", en: "Football manager" },
+    blurb: {
+      tr: "Civcivlerden oluşan bir futbol kulübünün başına geç. Kadronu kur, taktiğini çiz, transferde pazarlık yap, maçları canlı izle ve ligden kupalara kadar her şeyi kazan.",
+      en: "Take charge of a football club full of chicks. Build your squad, draw up your tactics, haggle in the transfer market, watch your matches live and win everything from the league to the cups."
+    },
+    shout: { tr: "hocam taktik ne?", en: "boss, what's the plan?" }
+  },
+  {
     id: "npc",
     img: "img/npc.webp",
     color: "#3fd3ea",

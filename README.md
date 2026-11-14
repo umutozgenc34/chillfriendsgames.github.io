@@ -22,4 +22,5 @@ Raftaki kartuşlardan birini konsola sürükleyince TV açılıyor ve o oyunu an
 - [Suçlu Kim?](https://play.google.com/store/apps/details?id=com.chillfriendsgames.suclukim)
 - Mini Gunners (yakında)
 - Mended (yakında)
+- Chickball Manager (yakında)
 - Who is the NPC? (yakında)
